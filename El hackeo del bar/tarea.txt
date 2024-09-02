@@ -1,8 +1,14 @@
 EL HACKEO DEL BAR
-En la tranquila ciudad de JavaBeans, los Cafeteros se encontraban en un dilema. Una serie de eventos desafortunados había llevado a la pérdida de los registros de sobres de café más preciados. Los Vigilantes del Expreso, siempre atentos, fueron los primeros en notar que algo andaba mal. Los Expertos Cafeteros confirmaron sus sospechas: los registros habían sido alterados. Ahora, dependía de los Maestros Tostadores y los Asociados del Café restaurar el orden, bajo la supervisión del Barista 
+En la tranquila ciudad de JavaBeans, los Cafeteros se encontraban en un dilema.
+Una serie de eventos desafortunados había llevado a la pérdida de los registros de sobres de café más preciados.
+Los Vigilantes del Expreso, siempre atentos, fueron los primeros en notar que algo andaba mal.
+Los Expertos Cafeteros confirmaron sus sospechas: los registros habían sido alterados.
+Ahora, dependía de los Maestros Tostadores y los Asociados del Café restaurar el orden, bajo la supervisión del Barista 
 
 
-Se te ha proporcionado un archivo llamado “registros_perdidos.txt” que contiene los registros de inventario de los sobres de café, pero hay un problema: los datos están codificados y desordenados. Cada línea del archivo representa un registro, pero la información está encriptada con una secuencia de números y letras :NL_catdance:
+Se te ha proporcionado un archivo llamado “registros_perdidos.txt” que contiene los registros de inventario de los sobres de café,
+pero hay un problema: los datos están codificados y desordenados.
+Cada línea del archivo representa un registro, pero la información está encriptada con una secuencia de números y letras :NL_catdance:
 
 PASOS A SEGUIR
 * Lee el contenido del archivo “registros_perdidos.txt”.

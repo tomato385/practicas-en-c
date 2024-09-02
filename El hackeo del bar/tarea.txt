@@ -1,0 +1,23 @@
+EL HACKEO DEL BAR
+En la tranquila ciudad de JavaBeans, los Cafeteros se encontraban en un dilema. Una serie de eventos desafortunados había llevado a la pérdida de los registros de sobres de café más preciados. Los Vigilantes del Expreso, siempre atentos, fueron los primeros en notar que algo andaba mal. Los Expertos Cafeteros confirmaron sus sospechas: los registros habían sido alterados. Ahora, dependía de los Maestros Tostadores y los Asociados del Café restaurar el orden, bajo la supervisión del Barista 
+
+
+Se te ha proporcionado un archivo llamado “registros_perdidos.txt” que contiene los registros de inventario de los sobres de café, pero hay un problema: los datos están codificados y desordenados. Cada línea del archivo representa un registro, pero la información está encriptada con una secuencia de números y letras :NL_catdance:
+
+PASOS A SEGUIR
+* Lee el contenido del archivo “registros_perdidos.txt”.
+* Descifra la información utilizando un algoritmo de decodificación que te proporcionaremos como archivo llamado "Algoritmo Tostador.txt".
+* Ordena los registros por fecha, de más antiguo a más reciente.
+
+Al final el archivo debería ser algo como:
+5684385,20230315,Café Arábica
+
+ALGORITMO DE DECODIFICACIÓN
+Para cada línea del archivo, sigue estos pasos:
+Separa los elementos.
+
+El primer elemento es un código hexadecimal que representa la cantidad de sobres. Conviértelo a decimal.
+
+La segunda parte es la fecha en formato AAAAMMDD (Año, Mes, Día), pero está en binario. Conviértelo a bytes y luego decodifica usando UTF-8, o pásalo a decimal.
+
+El tercer elemento es el tipo de grano de café.
